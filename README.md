@@ -1,4 +1,5 @@
 # PaySDK
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/Xinglin0529/PaySDK.svg?style=flat)](https://travis-ci.org/Xinglin0529/PaySDK)
 [![Version](https://img.shields.io/cocoapods/v/PaySDK.svg?style=flat)](http://cocoapods.org/pods/PaySDK)
@@ -27,3 +28,6 @@ Xinglin0529, xudongdong@zhongan.com
 ## License
 
 PaySDK is available under the MIT license. See the LICENSE file for more info.
+=======
+Test build private podspec.
+>>>>>>> c6a5a1b111c1b8f8e0047033d5969438804732c8
