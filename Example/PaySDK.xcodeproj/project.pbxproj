@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB50D461EB6341300C4B79E /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FB50D3F1EB6341300C4B79E /* AlipaySDK.bundle */; };
+		3FB50D471EB6341300C4B79E /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB50D401EB6341300C4B79E /* AlipaySDK.framework */; };
+		3FB50D481EB6341300C4B79E /* libOSSSecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB50D451EB6341300C4B79E /* libOSSSecurity.a */; };
 		4B7A7630DC48A43F91012289 /* Pods_PaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCB316E8E2E63719038B842 /* Pods_PaySDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +42,11 @@
 /* Begin PBXFileReference section */
 		064D0BD8330771BCB8AEC78E /* Pods-PaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaySDK_Example/Pods-PaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		12002C065259FB24A82D4456 /* Pods-PaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaySDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaySDK_Example/Pods-PaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB50D3F1EB6341300C4B79E /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		3FB50D401EB6341300C4B79E /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		3FB50D431EB6341300C4B79E /* OSSSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSSecurity.h; sourceTree = "<group>"; };
+		3FB50D441EB6341300C4B79E /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		3FB50D451EB6341300C4B79E /* libOSSSecurity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOSSSecurity.a; sourceTree = "<group>"; };
 		47931502FE1591ABCF96A51B /* Pods_PaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B52427FA3FB9ABF3D09680 /* Pods-PaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaySDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaySDK_Tests/Pods-PaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +70,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCD28D05EF7479DA83790741 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BCD5B4180A5D78AED4B8CB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCD28D05EF7479DA83790741 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BCD5B4180A5D78AED4B8CB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0FA5C4D9EC42495BDEF7598 /* Pods-PaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaySDK_Tests/Pods-PaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7AAD1DB357AE420A3381116 /* PaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PaySDK.podspec; path = ../PaySDK.podspec; sourceTree = "<group>"; };
+		D7AAD1DB357AE420A3381116 /* PaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PaySDK.podspec; path = ../PaySDK.podspec; sourceTree = "<group>"; };
 		DDCB316E8E2E63719038B842 /* Pods_PaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,7 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB50D471EB6341300C4B79E /* AlipaySDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				3FB50D481EB6341300C4B79E /* libOSSSecurity.a in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				4B7A7630DC48A43F91012289 /* Pods_PaySDK_Example.framework in Frameworks */,
@@ -95,6 +105,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB50D3D1EB6341300C4B79E /* PaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				3FB50D3E1EB6341300C4B79E /* Alipay */,
+				3FB50D411EB6341300C4B79E /* Pay */,
+			);
+			name = PaySDK;
+			path = ../PaySDK;
+			sourceTree = "<group>";
+		};
+		3FB50D3E1EB6341300C4B79E /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				3FB50D3F1EB6341300C4B79E /* AlipaySDK.bundle */,
+				3FB50D401EB6341300C4B79E /* AlipaySDK.framework */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		3FB50D411EB6341300C4B79E /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				3FB50D421EB6341300C4B79E /* Header */,
+				3FB50D451EB6341300C4B79E /* libOSSSecurity.a */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		3FB50D421EB6341300C4B79E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3FB50D431EB6341300C4B79E /* OSSSecurity.h */,
+				3FB50D441EB6341300C4B79E /* Tool.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +225,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				3FB50D3D1EB6341300C4B79E /* PaySDK */,
 				D7AAD1DB357AE420A3381116 /* PaySDK.podspec */,
 				BCD5B4180A5D78AED4B8CB79 /* README.md */,
 				BCD28D05EF7479DA83790741 /* LICENSE */,
@@ -279,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB50D461EB6341300C4B79E /* AlipaySDK.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

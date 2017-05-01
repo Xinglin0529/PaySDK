@@ -1,0 +1,53 @@
+{
+  "name": "PaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of PaySDK.",
+  "description": "Just test create private pods.",
+  "homepage": "https://github.com/Xinglin0529/PaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Xinglin0529": "18668016263@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Xinglin0529/PaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "default_subspecs": [
+    "Pay",
+    "Alipay"
+  ],
+  "subspecs": [
+    {
+      "name": "Alipay",
+      "ios": {
+        "vendored_frameworks": "PaySDK/Alipay/AlipaySDK.framework",
+        "libraries": [
+          "c++",
+          "stdc++",
+          "z"
+        ]
+      },
+      "resources": "PaySDK/Alipay/AlipaySDK.bundle",
+      "frameworks": [
+        "CoreMotion",
+        "CoreTelephony",
+        "CFNetwork",
+        "SystemConfiguration",
+        "Security"
+      ]
+    },
+    {
+      "name": "Pay",
+      "source_files": "PaySDK/Pay/Header/*.h",
+      "public_header_files": "PaySDK/Pay/Header/*.h",
+      "vendored_libraries": "PaySDK/Pay/*.a"
+    }
+  ]
+}

@@ -7,6 +7,8 @@
 //
 
 #import "DDViewController.h"
+#import <OSSSecurity.h>
+#import <AlipaySDK/AlipaySDK.h>
 
 @interface DDViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"______%@", [OSSSecurity secretKey]);
+    NSLog(@"______%@", [[AlipaySDK defaultService] currentVersion]);
 }
 
 - (void)didReceiveMemoryWarning
